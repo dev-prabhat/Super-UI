@@ -5,9 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
+    <link
+      rel="stylesheet"
+      href="https://tender-mccarthy-d4aa39.netlify.app/component.css"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div>Super UI Library</div>
-    <div>Development branch</div>
+    <div class="grid-container">
+      <header class="container-fluid header-container">
+        <h1 class="header-title">Super UI</h1>
+        <nav class="nav-bar">
+          <a class="btn-link" href="/">Home</a>
+          <a class="btn-link" href="/">Documentation</a>
+          <a class="btn-link" href="/">Github</a>
+        </nav>
+      </header>
+      <main class="container">
+        <h2 class="title">Lorem, ipsum dolor.</h2>
+        <p class="description">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque
+          voluptatum quasi, reiciendis voluptas, mollitia vitae dolore ullam
+          architecto, in explicabo cumque expedita possimus magnam earum?
+          Veritatis sit facilis impedit sint?
+        </p>
+        <a class="btn btn-primary btn-link" href="#snippet">Getting Start</a>
+        <a class="btn btn-secondary btn-link" href="/">Documentation</a>
+        <div id="snippet" class="code-snippet">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=84px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=145%25&si=false&es=2x&wm=false&code=%253Clink%250A%2520%2520rel%253D%2522stylesheet%2522%250A%2520%2520href%253D%2522https%253A%252F%252Ftender-mccarthy-d4aa39.netlify.app%252Fcomponent.css%2522%250A%252F%253E%250A"
+            style="
+              width: 639px;
+              height: 162px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+      </main>
+      <footer>
+        <p>Lorem, ipsum dolor</p>
+      </footer>
+    </div>
   </body>
 </html>
