@@ -1,7 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -10,8 +16,8 @@
 }
 
 .container-fluid {
-  padding: 1em;
-  background-color: var(--light-color);
+  padding: 0.5em;
+  box-shadow: 0px 0px 15px 0px var(--primary-theme-light-color);
 }
 
 .grid-container {
@@ -23,7 +29,7 @@
     "f f f f f f f f f f f f";
 }
 
-header {
+.header-container {
   grid-area: h;
   display: flex;
   flex-direction: row;
@@ -31,42 +37,63 @@ header {
   align-items: center;
 }
 
-.header-title {
-  color: var(--primary-theme-color);
-}
-
 .nav-bar {
   display: flex;
   flex-direction: row;
 }
 
-main {
+.main-container {
   grid-area: m;
   text-align: center;
 }
 
+.hero-description {
+  width: 60%;
+  margin: 1rem auto;
+}
+
+.hero-img {
+  width: 80%;
+  margin: 2.5rem auto;
+}
+
 .title {
-  font-size: 3rem;
-  margin: 0.5em 0;
+  text-align: left;
+  color: var(--dark-theme-color);
 }
 
 .description {
-  font-size: 2rem;
-  margin: 0.5em 0;
+  text-align: left;
+  color: var(--dark-theme-light-color);
+}
+
+.installation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.install-instruction {
+  width: 40%;
 }
 
 .code-snippet {
+  width: 50%;
   margin: 1.5rem 0;
 }
 
-footer {
-  grid-area: f;
-  text-align: center;
-  background-color: var(--drak-theme-color);
+.code-box {
+  border: 1px solid var(--primary-theme-light-color);
 }
 
-footer p {
+.footer-container {
+  grid-area: f;
+  text-align: center;
+  background-color: var(--dark-theme-color);
+}
+
+.footer-description {
   font-size: 1.5rem;
   padding: 1em 0;
-  color: var(--primary-theme-color);
+  color: var(--secondary-theme-color);
 }

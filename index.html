@@ -7,6 +7,12 @@
     <title>Home</title>
     <link
       rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
       href="https://tender-mccarthy-d4aa39.netlify.app/component.css"
     />
     <link rel="stylesheet" href="style.css" />
@@ -14,40 +20,63 @@
   <body>
     <div class="grid-container">
       <header class="container-fluid header-container">
-        <h1 class="header-title">Super UI</h1>
+        <a class="btn-link" href="/">
+          <h1 class="header-title">Super UI</h1>
+        </a>
         <nav class="nav-bar">
           <a class="btn-link" href="/">Home</a>
           <a class="btn-link" href="/">Documentation</a>
           <a class="btn-link" href="/">Github</a>
         </nav>
       </header>
-      <main class="container">
-        <h2 class="title">Lorem, ipsum dolor.</h2>
-        <p class="description">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque
-          voluptatum quasi, reiciendis voluptas, mollitia vitae dolore ullam
-          architecto, in explicabo cumque expedita possimus magnam earum?
-          Veritatis sit facilis impedit sint?
-        </p>
-        <a class="btn btn-primary btn-link" href="#snippet">Getting Start</a>
-        <a class="btn btn-secondary btn-link" href="/">Documentation</a>
-        <div id="snippet" class="code-snippet">
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=84px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=145%25&si=false&es=2x&wm=false&code=%253Clink%250A%2520%2520rel%253D%2522stylesheet%2522%250A%2520%2520href%253D%2522https%253A%252F%252Ftender-mccarthy-d4aa39.netlify.app%252Fcomponent.css%2522%250A%252F%253E%250A"
-            style="
-              width: 639px;
-              height: 162px;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
-        </div>
+      <main class="container main-container">
+        <section class="hero-section">
+          <section class="hero-description margin-md">
+            <h2 class="title head-1 margin-md">
+              Create your UI with Superpower Components
+            </h2>
+            <p class="description margin-lg text-3">
+              Just copy and paste in one go and boom your are ready to implement
+              it in your web application, gives your UI with Superpower of CSS
+            </p>
+            <a class="btn btn-primary btn-link" href="#snippet"
+              >Getting Start</a
+            >
+            <a class="btn btn-secondary btn-link" href="/">Documentation</a>
+          </section>
+
+          <section class="hero-img">
+            <img
+              class="img-responsive"
+              src="./assests/images/undraw_website_builder_re_ii6e.svg"
+              alt="logo"
+            />
+          </section>
+        </section>
+
+        <section class="installation">
+          <section class="install-instruction">
+            <h2 class="title head-2 margin-md">Installation</h2>
+            <p class="description margin-md text-4">
+              Copy and paste the code given in the iframe in your head tag of
+              your html document , and implement classes as per defined to give
+              Superpower to your components
+            </p>
+          </section>
+          <div id="snippet" class="code-snippet">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=84px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=145%25&si=false&es=2x&wm=false&code=%253Clink%250A%2520%2520rel%253D%2522stylesheet%2522%250A%2520%2520href%253D%2522https%253A%252F%252Ftender-mccarthy-d4aa39.netlify.app%252Fcomponent.css%2522%250A%252F%253E%250A"
+              class="img-responsive code-box"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </section>
       </main>
-      <footer>
-        <p>Lorem, ipsum dolor</p>
+      <footer class="footer-container">
+        <p class="footer-description">
+          Made with <i class="fas fa-heart btn-icon"></i> by Prabhat Singh
+        </p>
       </footer>
     </div>
   </body>
