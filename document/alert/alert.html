@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Super UI | Alert</title>
+    <link rel="stylesheet" href="/gist.css" />
+    <link
+      rel="stylesheet"
+      href="https://tender-mccarthy-d4aa39.netlify.app/component.css"
+    />
+    <link rel="stylesheet" href="alert.css" />
+  </head>
+  <body>
+    <!------------------ grid-container---------------->
+
+    <div class="grid-container">
+      <header class="container-fluid header-container">
+        <a class="btn-link" href="/">
+          <h1 class="header-title">Super UI</h1>
+        </a>
+        <nav class="nav-bar">
+          <a class="btn-link" href="/">Home</a>
+          <a class="btn-link" href="/document/alert/alert.html"
+            >Documentation</a
+          >
+          <a class="btn-link" href="/">Github</a>
+        </nav>
+      </header>
+      <nav class="side-bar margin-lg">
+        <h1 class="head-3 margin-xs">Components</h1>
+        <a class="d-block btn-link" href="#alert-section">Alert</a>
+        <a class="d-block btn-link" href="/">Avatar</a>
+        <a class="d-block btn-link" href="/">Badges</a>
+        <a class="d-block btn-link" href="/">Button</a>
+      </nav>
+      <section id="alert-section" class="margin-lg">
+        <h1 class="head-1">Alerts</h1>
+        <p class="text-3 font-weight-light text-gray">
+          Alerts are used to attract user's attention for important information
+          without interrupting the user's flow.
+        </p>
+
+        <h2 class="head-2">Example of Alert Bar</h2>
+        <p class="text-3 font-weight-light text-gray">
+          Alerts are available in 5 types primary alert, secondary alert,
+          success alert, danger alert, warning alert, light alert and dark
+          alert. To use alrt just use class name alert and also add classes
+          accordingly like alert-primary, alert-secondary, alert-success,
+          alert-danger, alert-warning, alert-light or alert-dark (eg
+          class="alert alert-danger")
+        </p>
+
+        <!--------------------alert components ------------------------>
+
+        <div class="alert-wrapper padding-md border-radius-xs">
+          <div class="alert alert-primary margin-xs">This is primary alert</div>
+          <div class="alert alert-secondary margin-xs">
+            This is secondary alert
+          </div>
+          <div class="alert alert-success margin-xs">This is success alert</div>
+          <div class="alert alert-danger margin-xs">This is danger alert</div>
+          <div class="alert alert-warning margin-xs">This is warning alert</div>
+          <div class="alert alert-light margin-xs">This is light alert</div>
+          <div class="alert alert-dark margin-xs">This is dark alert</div>
+        </div>
+
+        <div class="code-snippet">
+          <script src="https://gist.github.com/dev-prabhat/1b77f6d23dda20cfc7eded4f0631cdff.js"></script>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
