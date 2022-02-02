@@ -47,22 +47,24 @@ body {
   text-align: center;
 }
 
-.hero-description {
-  width: 60%;
+.hero-info {
+  width: 50%;
   margin: 1rem auto;
 }
 
 .hero-img {
-  width: 80%;
+  width: 50%;
   margin: 2.5rem auto;
 }
 
-.title {
+.hero-title,
+.install-title {
   text-align: left;
   color: var(--dark-theme-color);
 }
 
-.description {
+.hero-description,
+.install-description {
   text-align: left;
   color: var(--dark-theme-light-color);
 }
