@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Super UI | Avatar</title>
+    <link rel="stylesheet" href="/gist.css" />
+    <link
+      rel="stylesheet"
+      href="https://tender-mccarthy-d4aa39.netlify.app/component.css"
+    />
+    <link rel="stylesheet" href="avatar.css" />
+  </head>
+  <body>
+    <!------------------ grid-container---------------->
+
+    <div class="grid-container">
+      <header class="container-fluid header-container">
+        <a class="btn-link" href="/">
+          <h1 class="header-title">Super UI</h1>
+        </a>
+        <nav class="nav-bar">
+          <a class="btn-link" href="/">Home</a>
+          <a class="btn-link" href="/document/alert/alert.html"
+            >Documentation</a
+          >
+          <a class="btn-link" href="/">Github</a>
+        </nav>
+      </header>
+      <nav class="side-bar margin-lg">
+        <h1 class="head-3 margin-xs">Components</h1>
+        <a class="d-block btn-link" href="#alert-section">Alert</a>
+        <a class="d-block btn-link" href="/">Avatar</a>
+        <a class="d-block btn-link" href="/">Badges</a>
+        <a class="d-block btn-link" href="/">Button</a>
+      </nav>
+      <section id="alert-section" class="margin-lg">
+        <h1 class="head-1">Avatar</h1>
+        <p class="text-3 font-weight-light text-gray">
+          Avatar can be used to show user's profile picture on profile
+          information page, on navigation bar, in blogs grid items.
+        </p>
+
+        <h2 class="head-2">Example of Image Avatar</h2>
+        <p class="text-3 font-weight-light text-gray">
+          Avatar is available in 5 different sizes. You can use image in Avatar.
+          You need to include class avatar and for size add class according to
+          size avatar-xl, avatar-lg, avatar-md, avatar-sm, avatar-xs (e.g.
+          class="avatar avatar-lg") Don't forget to add Responsive Image class
+          names for img element.
+        </p>
+
+        <!--------------------avatar components ------------------------>
+
+        <div class="avatar-components d-flex">
+          <div class="avatar avatar-xl">
+            <img
+              class="img-responsive img-round"
+              src="./assests/Images/example_image2.jpg"
+              alt="avatar"
+            />
+          </div>
+
+          <div class="avatar avatar-lg">
+            <img
+              class="img-responsive img-round"
+              src="./assests/Images/example_image2.jpg"
+              alt="avatar"
+            />
+          </div>
+
+          <div class="avatar avatar-md">
+            <img
+              class="img-responsive img-round"
+              src="./assests/Images/example_image2.jpg"
+              alt="avatar"
+            />
+          </div>
+
+          <div class="avatar avatar-sm">
+            <img
+              class="img-responsive img-round"
+              src="./assests/Images/example_image2.jpg"
+              alt="avatar"
+            />
+          </div>
+
+          <div class="avatar avatar-xs">
+            <img
+              class="img-responsive img-round"
+              src="./assests/Images/example_image2.jpg"
+              alt="avatar"
+            />
+          </div>
+        </div>
+
+        <div class="code-snippet">
+          <script src="https://gist.github.com/dev-prabhat/1b77f6d23dda20cfc7eded4f0631cdff.js"></script>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
