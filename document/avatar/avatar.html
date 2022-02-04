@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Super UI | Avatar</title>
+    <link rel="stylesheet" href="/gist.css" />
+    <link
+      rel="stylesheet"
+      href="https://tender-mccarthy-d4aa39.netlify.app/component.css"
+    />
+    <link rel="stylesheet" href="avatar.css" />
+  </head>
+  <body>
+    <!------------------ grid-container---------------->
+
+    <div class="grid-container">
+      <header class="container-fluid header-container">
+        <a class="btn-link" href="/">
+          <h1 class="header-title">Super UI</h1>
+        </a>
+        <nav class="nav-bar">
+          <a class="btn-link" href="/">Home</a>
+          <a class="btn-link" href="/document/alert/alert.html"
+            >Documentation</a
+          >
+          <a class="btn-link" href="/">Github</a>
+        </nav>
+      </header>
+      <nav class="side-bar margin-lg">
+        <h1 class="head-3 margin-xs">Components</h1>
+        <a class="d-block btn-link" href="/document/alert/alert.html">Alert</a>
+        <a class="d-block btn-link" href="#avater-section">Avatar</a>
+        <a class="d-block btn-link" href="/">Badges</a>
+        <a class="d-block btn-link" href="/">Button</a>
+      </nav>
+      <section id="avater-section" class="margin-lg">
+        <h1 class="head-1">Avatar</h1>
+        <p class="text-3 font-weight-light text-gray">
+          Avatar can be used to show user's profile picture on profile
+          information page, on navigation bar, in blogs grid items.
+        </p>
+
+        <h2 class="head-2">Example of Image Avatar</h2>
+        <p class="text-3 font-weight-light text-gray">
+          Avatar is available in 5 different sizes. You can use image in Avatar.
+          You need to include class avatar and for size add class according to
+          size avatar-xl, avatar-lg, avatar-md, avatar-sm, avatar-xs (e.g.
+          class="avatar avatar-lg") Don't forget to add Responsive Image class
+          names for img element.
+        </p>
+
+        <!--------------------avatar components ------------------------>
+
+        <div class="avatar-wrapper d-flex padding-md border-radius-xs">
+          <div class="avatar avatar-xl margin-xs">
+            <img
+              class="img-responsive img-round"
+              src="/assests/Images/example_image2.jpg"
+              alt="avatar"
+            />
+          </div>
+
+          <div class="avatar avatar-lg margin-xs">
+            <img
+              class="img-responsive img-round"
+              src="/assests/Images/example_image2.jpg"
+              alt="avatar"
+            />
+          </div>
+
+          <div class="avatar avatar-md margin-xs">
+            <img
+              class="img-responsive img-round"
+              src="/assests/Images/example_image2.jpg"
+              alt="avatar"
+            />
+          </div>
+
+          <div class="avatar avatar-sm margin-xs">
+            <img
+              class="img-responsive img-round"
+              src="/assests/Images/example_image2.jpg"
+              alt="avatar"
+            />
+          </div>
+
+          <div class="avatar avatar-xs margin-xs">
+            <img
+              class="img-responsive img-round"
+              src="/assests/Images/example_image2.jpg"
+              alt="avatar"
+            />
+          </div>
+        </div>
+
+        <div class="code-snippet">
+          <script src="https://gist.github.com/dev-prabhat/5de1b37a470adca0371b0b53119db160.js"></script>
+        </div>
+
+        <h2 class="head-2">Example of Avatar Text</h2>
+        <p class="text-3 font-weight-light text-gray">
+          Avatar is available in 5 different sizes. You can use text in Avatar.
+          You need to include class avatar , avatar-text and for size add class
+          according to size avatar-text-xl, avatar-text-lg, avatar-text-md,
+          avatar-text-sm, avatar-text-xs (e.g. class="avatar avatar-text
+          avatar-text-lg")
+        </p>
+
+        <!--------------------text avatar components ------------------------>
+
+        <div class="avatar-text-wrapper padding-md border-radius-xs d-flex">
+          <div class="avatar avatar-text avatar-text-xl margin-xs">PS</div>
+          <div class="avatar avatar-text avatar-text-lg margin-xs">PS</div>
+          <div class="avatar avatar-text avatar-text-md margin-xs">PS</div>
+          <div class="avatar avatar-text avatar-text-sm margin-xs">PS</div>
+          <div class="avatar avatar-text avatar-text-xs margin-xs">PS</div>
+        </div>
+
+        <div class="code-snippet">
+          <script src="https://gist.github.com/dev-prabhat/7d615f8e4c9b7af9c8a4ee6f2fcc8f50.js"></script>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
