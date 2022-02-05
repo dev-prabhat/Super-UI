@@ -13,7 +13,7 @@
   grid-template-rows: auto 1fr;
   grid-template-areas:
     "header header header"
-    "side alert alert";
+    "side avatar avatar";
 }
 
 .header-container {
@@ -33,11 +33,12 @@
   grid-area: side;
 }
 
-#alert-section {
-  grid-area: alert;
+#avatar-section {
+  grid-area: avatar;
 }
 
-.alert-wrapper {
+.avatar-wrapper,
+.avatar-text-wrapper {
   margin: 1rem 0;
   border: 1px solid var(--dark-theme-light-color);
 }
