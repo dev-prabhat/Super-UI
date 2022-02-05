@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Super UI | Button</title>
+    <link rel="stylesheet" href="/gist.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://tender-mccarthy-d4aa39.netlify.app/component.css"
+    />
+    <link rel="stylesheet" href="/common.css" />
+    <link rel="stylesheet" href="button.css" />
+  </head>
+  <body>
+    <!------------------ grid-container---------------->
+
+    <div class="grid-container">
+      <header class="container-fluid header-container">
+        <a class="btn-link" href="/">
+          <h1 class="header-title">Super UI</h1>
+        </a>
+        <nav class="nav-bar">
+          <a class="btn-link" href="/">Home</a>
+          <a class="btn-link" href="/document/alert/alert.html">
+            Documentation
+          </a>
+          <a class="btn-link" href="/">Github</a>
+        </nav>
+      </header>
+      <nav class="side-bar margin-lg">
+        <h1 class="head-3 margin-xs">Components</h1>
+        <a class="d-block btn-link" href="/document/alert/alert.html">Alert</a>
+        <a class="d-block btn-link" href="/document/avatar/avatar.html"
+          >Avatar</a
+        >
+        <a class="d-block btn-link" href="/document/badges/badges.html"
+          >Badges</a
+        >
+        <a class="d-block btn-link" href="#button-section">Button</a>
+      </nav>
+      <section id="button-section" class="margin-lg">
+        <h1 class="head-1">Button</h1>
+        <p class="text-3 font-weight-light text-gray">
+          Buttons are also called as call to action. We have range of buttons
+          and their states. You may use a tag or button element, you need to add
+          respective classes, and you are good to go.
+        </p>
+
+        <h2 class="head-2">Example of Primary Button Styles</h2>
+        <p class="text-3 font-weight-light text-gray">
+          Whenever you want your user to click on a button, use primary style
+          buttons.
+        </p>
+
+        <!--------------------button components ------------------------>
+
+        <div class="button-wrapper padding-md border-radius-xs">
+          <button type="button" class="btn btn-primary">Solid Primary</button>
+          <button type="button" class="btn btn-secondary">
+            Outline Primary
+          </button>
+          <a class="btn-link" href="/"><i class="fas fa-shopping-cart"></i></a>
+          <button type="button" class="btn btn-primary">
+            <i class="fas fa-shopping-cart"></i> Add Cart
+          </button>
+        </div>
+
+        <div class="code-snippet">
+          <script src="https://gist.github.com/dev-prabhat/6d5ed1672600686d1b8b2df0a2a04139.js"></script>
+        </div>
+
+        <h2 class="head-2">Example of Primary Link Button Styles</h2>
+        <p class="text-3 font-weight-light text-gray">
+          Whenever you want your user to click on a link, use primary style link
+          to navigate from one page to other.
+        </p>
+
+        <div class="link-wrapper padding-md border-radius-xs">
+          <a class="btn-link" href="/">Primary Link</a>
+          <a class="btn btn-link" href="/">Outline Link</a>
+          <a class="btn btn-link btn-primary" href="/">Link</a>
+          <a class="btn btn-link btn-secondary" href="/">Other Link</a>
+
+          <a class="btn-link btn-icon" href="/"
+            ><i class="fas fa-shopping-cart"></i
+          ></a>
+          <a class="btn-link btn-float-icon" href="/"
+            ><i class="fas fa-plus"></i
+          ></a>
+        </div>
+        <div class="code-snippet">
+          <script src="https://gist.github.com/dev-prabhat/a07d8a723ccef7d85901e3954a3a704f.js"></script>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
