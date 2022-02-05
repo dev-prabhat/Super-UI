@@ -4,7 +4,7 @@
 }
 
 .container-fluid {
-  padding: 0.5em;
+  padding: 8px;
   box-shadow: 0px 0px 15px 0px var(--primary-theme-light-color);
 }
 
@@ -41,10 +41,6 @@
 .avatar-text-wrapper {
   margin: 1rem 0;
   border: 1px solid var(--dark-theme-light-color);
-}
-
-.d-block {
-  display: block;
 }
 
 .code-snippet {
