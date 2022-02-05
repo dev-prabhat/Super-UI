@@ -1,22 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-}
-
 .container {
   width: 90%;
   margin: 0 auto;
 }
 
 .container-fluid {
-  padding: 0.5em;
+  padding: 8px;
   box-shadow: 0px 0px 15px 0px var(--primary-theme-light-color);
 }
 
