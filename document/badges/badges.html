@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Super UI | Badges</title>
+    <link rel="stylesheet" href="/gist.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://tender-mccarthy-d4aa39.netlify.app/component.css"
+    />
+    <link rel="stylesheet" href="/common.css" />
+    <link rel="stylesheet" href="badges.css" />
+  </head>
+  <body>
+    <!------------------ grid-container---------------->
+
+    <div class="grid-container">
+      <header class="container-fluid header-container">
+        <a class="btn-link" href="/">
+          <h1 class="header-title">Super UI</h1>
+        </a>
+        <nav class="nav-bar">
+          <a class="btn-link" href="/">Home</a>
+          <a class="btn-link" href="/document/alert/alert.html">
+            Documentation
+          </a>
+          <a class="btn-link" href="/">Github</a>
+        </nav>
+      </header>
+      <nav class="side-bar margin-lg">
+        <h1 class="head-3 margin-xs">Components</h1>
+        <a class="d-block btn-link" href="/document/alert/alert.html">
+          Alert
+        </a>
+        <a class="d-block btn-link" href="/document/avatar/avatar.html">
+          Avatar
+        </a>
+        <a class="d-block btn-link" href="#badges-section"> Badges </a>
+        <a class="d-block btn-link" href="/">Button</a>
+      </nav>
+      <section id="badges-section" class="margin-lg">
+        <h1 class="head-1">Badges</h1>
+        <p class="text-3 font-weight-light text-gray">
+          Badges are being used to display a notification count or status
+          information
+        </p>
+
+        <h2 class="head-2">Example of Badges</h2>
+        <p class="text-3 font-weight-light text-gray">
+          We have 2 types of status badges that can be integrated with Avatars.
+          You can show colors to show the online status of user. And to show
+          cart or notification count, you can use number badge. Check code below
+          to copy the html part as is.
+        </p>
+
+        <!--------------------badges component ------------------------>
+
+        <div class="badges-wrapper d-flex padding-md border-radius-xs">
+          <div class="badge-container margin-xs">
+            <img
+              class="avatar avatar-xl"
+              src="/assests/Images/example_image2.jpg"
+              alt="avatar"
+            />
+            <span
+              class="badge badge-xl position-abs badge-status-online border-radius-xl"
+            ></span>
+          </div>
+
+          <div class="badge-container margin-xs">
+            <img
+              class="avatar avatar-lg"
+              src="/assests/Images/example_image2.jpg"
+              alt="avatar"
+            />
+            <span
+              class="badge badge-lg position-abs badge-status-offline border-radius-lg"
+            ></span>
+          </div>
+
+          <div class="badge-container margin-xs">
+            <img
+              class="avatar avatar-md"
+              src="/assests/Images/example_image2.jpg"
+              alt="avatar"
+            />
+            <span
+              class="badge badge-md position-abs badge-status-online border-radius-md"
+            ></span>
+          </div>
+
+          <div class="badge-container margin-xs">
+            <img
+              class="avatar avatar-sm"
+              src="/assests/Images/example_image2.jpg"
+              alt="avatar"
+            />
+            <span
+              class="badge badge-sm position-abs badge-status-offline border-radius-sm"
+            ></span>
+          </div>
+
+          <div class="badge-container margin-xs">
+            <img
+              class="avatar avatar-xs"
+              src="/assests/Images/example_image2.jpg"
+              alt="avatar"
+            />
+            <span
+              class="badge badge-xs position-abs badge-status-offline border-radius-xs"
+            ></span>
+          </div>
+
+          <a class="badge-container margin-xs">
+            <i class="fas fa-shopping-cart badge-link"></i>
+            <span
+              class="badge-icon top-0 left-100 position-abs translate-topright badge-status-offline border-radius-xl"
+              >2</span
+            >
+          </a>
+        </div>
+
+        <div class="code-snippet">
+          <script src="https://gist.github.com/dev-prabhat/0e9199ceb82dff0a1c4857c13cca316e.js"></script>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
