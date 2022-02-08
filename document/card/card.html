@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Super UI | Card</title>
+    <link rel="stylesheet" href="/gist.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://tender-mccarthy-d4aa39.netlify.app/component.css"
+    />
+    <link rel="stylesheet" href="/common.css" />
+    <link rel="stylesheet" href="card.css" />
+  </head>
+  <body>
+    <!------------------ grid-container---------------->
+
+    <div class="grid-container">
+      <header class="container-fluid header-container">
+        <a class="btn-link" href="/">
+          <h1 class="header-title head-xl">Super UI</h1>
+        </a>
+        <nav class="nav-bar">
+          <a class="btn-link text-md" href="/">Home</a>
+          <a class="btn-link text-md" href="/document/alert/alert.html">
+            Documentation
+          </a>
+          <a class="btn-link text-md" href="/">Github</a>
+        </nav>
+      </header>
+      <nav class="side-bar margin-lg">
+        <h1 class="head-lg margin-xs">Components</h1>
+        <a class="d-block btn-link" href="/document/alert/alert.html">Alert</a>
+        <a class="d-block btn-link" href="/document/avatar/avatar.html"
+          >Avatar</a
+        >
+        <a class="d-block btn-link" href="/document/badges/badges.html"
+          >Badges</a
+        >
+        <a class="d-block btn-link" href="/document/button/button.html"
+          >Button</a
+        >
+        <a class="d-block btn-link" href="#card-section">Card</a>
+      </nav>
+      <section id="card-section" class="margin-lg">
+        <h1 class="head-xl">Card</h1>
+        <p class="text-md font-weight-light text-gray">
+          Card are used to show user related data collectively, like product
+          details.
+        </p>
+
+        <h2 class="head-lg">Example of Horizontal Card- Text+Image</h2>
+        <p class="text-md font-weight-light text-gray">
+          Card's image may have a margin or it can be full-bleed. By default
+          card's images are full-bleed. If you want image to have margin, you
+          can use horizontal-card-container class. Copy below code and put your
+          desired text and image and you are good to go
+        </p>
+
+        <!--------------------horizontal card components ------------------------>
+
+        <div class="card-wrapper padding-md border-radius-xs">
+          <div
+            class="card-container horizontal-card-container d-flex padding-xs"
+          >
+            <div class="avatar-xl">
+              <img
+                class="img-responsive"
+                src="/assests/Images/example_image1.jpg"
+                alt="black_jacket"
+              />
+            </div>
+            <div class="card-description margin-xs">
+              <h1 class="card-title head-lg">Black Jacket</h1>
+              <h2 class="card-subtitle head-sm">Men's Cap</h2>
+              <h3 class="head-4 text-gray">Sold by: Prabhat Singh</h3>
+              <p class="text-4 text-gray">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.amet
+                consectetur adipisicing elit.
+              </p>
+              <button
+                type="button"
+                class="btn btn-primary head-sm border-radius-xs margin-xs"
+              >
+                <i class="fas fa-shopping-cart cart-icon"></i>Add to cart
+              </button>
+              <button
+                type="button"
+                class="btn btn-secondary head-sm border-radius-xs margin-xs"
+              >
+                Move to Wishlist
+              </button>
+            </div>
+          </div>
+        </div>
+        <!--------------------horizontal card code ------------------------>
+
+        <div class="code-snippet">
+          <script src="https://gist.github.com/dev-prabhat/e14a53f4e35e2bfab36893fdb5aa7cb3.js"></script>
+        </div>
+
+        <!--------------------vertical card components ------------------------>
+        <h2 class="head-lg">Example of Vertical Card- Text+Image</h2>
+        <p class="text-md font-weight-light text-gray">
+          Below are 3 variations, card with badge, card with image
+          vertical-card-container, card with close button. All the cards have
+          like button.
+        </p>
+
+        <div class="card-wrapper padding-md border-radius-xs">
+          <div class="d-flex">
+            <div
+              class="card-container vertical-card-container padding-xs margin-md"
+            >
+              <div class="avatar-xl position-rel">
+                <img
+                  class="img-responsive"
+                  src="/assests/Images/example_image1.jpg"
+                  alt="black_cap"
+                />
+                <span
+                  class="card-badge-primary position-abs top-0 left-0 translate-topright padding-xxs border-radius-xs"
+                  >New</span
+                >
+              </div>
+              <div class="card-description">
+                <h1 class="card-title head-md">Black Cap</h1>
+                <i class="far fa-heart btn-icon badge-link"></i>
+                <h2 class="card-subtitle head-sm">Men's Cap</h2>
+                <p class="text-sm text-gray">Rs.499</p>
+                <button
+                  type="button"
+                  class="btn btn-primary head-sm border-radius-xs"
+                >
+                  <i class="fas fa-shopping-cart cart-icon"></i>Add to cart
+                </button>
+              </div>
+            </div>
+
+            <div
+              class="card-container vertical-card-container padding-xs margin-md"
+            >
+              <div class="avatar-xl position-rel">
+                <img
+                  class="img-responsive"
+                  src="/assests/Images/example_image1.jpg"
+                  alt="black_cap"
+                />
+                <span
+                  class="card-badge-primary badge-link position-abs top-0 right-0 translate-topright"
+                  ><i class="fas fa-times text-3 padding-xs"></i
+                ></span>
+              </div>
+              <div class="card-description">
+                <h1 class="card-title head-md">Black Cap</h1>
+                <i class="far fa-heart btn-icon badge-link"></i>
+                <h2 class="card-subtitle head-sm">Men's Cap</h2>
+                <p class="text-sm text-gray">Rs.499</p>
+                <button
+                  type="button"
+                  class="btn btn-primary head-sm border-radius-xs"
+                >
+                  <i class="fas fa-shopping-cart cart-icon"></i>Add to cart
+                </button>
+              </div>
+            </div>
+
+            <div
+              class="card-container vertical-card-container opacity-40 padding-xs margin-md"
+            >
+              <div class="avatar-xl position-rel">
+                <img
+                  class="img-responsive"
+                  src="/assests/Images/example_image1.jpg"
+                  alt="black_cap"
+                />
+                <span
+                  class="card-badge-secondary position-abs top-50 left-0 d-100 text-md"
+                >
+                  Out of stock
+                </span>
+              </div>
+              <div class="card-description">
+                <h1 class="card-title head-md">Black Cap</h1>
+                <i class="far fa-heart btn-icon badge-link"></i>
+                <h2 class="card-subtitle head-sm">Men's Cap</h2>
+                <p class="text-sm text-gray">Rs.499</p>
+                <button
+                  type="button"
+                  class="btn btn-primary head-sm border-radius-xs"
+                  disabled
+                >
+                  <i class="fas fa-shopping-cart cart-icon"></i>Add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--------------------vertical card code ------------------------>
+        <div class="code-snippet">
+          <script src="https://gist.github.com/dev-prabhat/5221c1ee2f059729eba444d96c81dbd0.js"></script>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
