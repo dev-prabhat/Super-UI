@@ -3,15 +3,14 @@
   grid-template-rows: auto 1fr;
   grid-template-areas:
     "header header header"
-    "side avatar avatar";
+    "side list list";
 }
 
-#avatar-section {
-  grid-area: avatar;
+#list-section {
+  grid-area: list;
 }
 
-.avatar-wrapper,
-.avatar-text-wrapper {
+.list-wrapper {
   margin: 1rem 0;
   border: 1px solid var(--dark-theme-light-color);
 }
