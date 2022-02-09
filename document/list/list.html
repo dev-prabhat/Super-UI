@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Super UI | List</title>
+    <link rel="stylesheet" href="/gist.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://tender-mccarthy-d4aa39.netlify.app/component.css"
+    />
+    <link rel="stylesheet" href="/common.css" />
+    <link rel="stylesheet" href="list.css" />
+  </head>
+  <body>
+    <!------------------ grid-container---------------->
+
+    <div class="grid-container">
+      <header class="container-fluid header-container">
+        <a class="btn-link" href="/">
+          <h1 class="header-title head-xl">Super UI</h1>
+        </a>
+        <nav class="nav-bar">
+          <a class="btn-link text-md" href="/">Home</a>
+          <a class="btn-link text-md" href="/document/alert/alert.html">
+            Documentation
+          </a>
+          <a class="btn-link text-md" href="/">Github</a>
+        </nav>
+      </header>
+      <nav class="side-bar margin-lg">
+        <h1 class="head-lg margin-xs">Components</h1>
+        <a class="d-block btn-link" href="/document/alert/alert.html">Alert</a>
+        <a class="d-block btn-link" href="/document/avatar/avatar.html"
+          >Avatar</a
+        >
+        <a class="d-block btn-link" href="/document/badges/badges.html"
+          >Badges</a
+        >
+        <a class="d-block btn-link" href="/document/button/button.html"
+          >Button</a
+        >
+        <a class="d-block btn-link" href="/document/card/card.html">Card</a>
+        <a class="d-block btn-link" href="/document/image/image.html">Image</a>
+        <a class="d-block btn-link" href="/document/form/form.html">Form</a>
+        <a class="d-block btn-link" href="#list-section">List</a>
+      </nav>
+      <section id="list-section" class="margin-lg">
+        <h1 class="head-xl">Lists</h1>
+        <p class="text-md font-weight-light text-gray">
+          Lists can be used at so many places, navigation bar, stacked
+          notifications, article pages, etc.
+        </p>
+
+        <h2 class="head-lg">Example of Unordered List with bullets</h2>
+        <p class="text-md font-weight-light text-gray">
+          Add class according to bullet style. Copy html code below and add your
+          desired list items.
+        </p>
+
+        <!--------------------image components ------------------------>
+
+        <div class="list-wrapper padding-md border-radius-xs">
+          <ul class="styled-list padding-md d-inline_block">
+            <li>list item1</li>
+            <li>list item2</li>
+            <li>list item3</li>
+          </ul>
+
+          <ul class="styled-list list-style-circle padding-md d-inline_block">
+            <li>list item1</li>
+            <li>list item2</li>
+            <li>list item3</li>
+          </ul>
+
+          <ul class="styled-list list-style-square padding-md d-inline_block">
+            <li>list item1</li>
+            <li>list item2</li>
+            <li>list item3</li>
+          </ul>
+        </div>
+        <!--------------------image code ------------------------>
+
+        <div class="code-snippet">
+          <script src="https://gist.github.com/dev-prabhat/813524d408eadbbcee9b37b40515936c.js"></script>
+        </div>
+
+        <!--------------------image components ------------------------>
+
+        <h2 class="head-lg">Example of Ordered List with bullets</h2>
+        <p class="text-md font-weight-light text-gray">
+          Add class according to bullet style. Copy html code below and add your
+          desired list items. To reverse the order of ordered list, add reversed
+          attribute to ol element
+        </p>
+
+        <div class="list-wrapper padding-md border-radius-xs">
+          <div>
+            <ol class="styled-list padding-md d-inline_block">
+              <li>list with numbers</li>
+              <li>list with numbers</li>
+              <li>list with numbers</li>
+            </ol>
+
+            <ol class="styled-list padding-md d-inline_block" reversed>
+              <li>list reverse</li>
+              <li>list reverse</li>
+              <li>list reverse</li>
+            </ol>
+
+            <ol
+              class="styled-list list-style-upper-case padding-md d-inline_block"
+            >
+              <li>list with uppercase</li>
+              <li>list with uppercase</li>
+              <li>list with uppercase</li>
+            </ol>
+          </div>
+
+          <div>
+            <ol
+              class="styled-list list-style-lower-case padding-md d-inline_block"
+            >
+              <li>list with lowercase</li>
+              <li>list with lowercase</li>
+              <li>list with lowercase</li>
+            </ol>
+
+            <ol
+              class="styled-list list-style-lower-roman padding-md d-inline_block"
+            >
+              <li>list with lowerRoman</li>
+              <li>list with lowerRoman</li>
+              <li>list with lowerRoman</li>
+            </ol>
+
+            <ol
+              class="styled-list list-style-upper-roman padding-md d-inline_block"
+            >
+              <li>list with upperRoman</li>
+              <li>list with upperRoman</li>
+              <li>list with upperRoman</li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="code-snippet">
+          <script src="https://gist.github.com/dev-prabhat/4dcdd7bd40020e5923f0a0750dd5c4db.js"></script>
+        </div>
+
+        <!---------------------list with no bullets component ----------------------->
+        <h2 class="head-lg">Example of List with no bullets</h2>
+        <p class="text-md font-weight-light text-gray">
+          If you want list stacked but with no bullet and indentation, then you
+          can add list-style-none class. Class styled-list applies padding
+          between two list items.
+        </p>
+
+        <div class="list-wrapper padding-md border-radius-xs">
+          <ul class="styled-list list-style-none padding-md d-inline_block">
+            <li>list item no bullets</li>
+            <li>list item no bullets</li>
+            <li>list item no bullets</li>
+          </ul>
+        </div>
+
+        <div class="code-snippet">
+          <script src="https://gist.github.com/dev-prabhat/c80a26e649aa351745582339e9673df4.js"></script>
+        </div>
+
+        <!--------------------- inline component ----------------------->
+        <h2 class="head-lg">Example of List with inline items</h2>
+        <p class="text-md font-weight-light text-gray">
+          If you want list items in same line instead of stacked, you can add
+          inline-list class to make it inline. And you can also add
+          list-style-none class to remove bullets.
+        </p>
+        <div class="image-wrapper padding-md border-radius-xs">
+          <ul class="styled-list padding-md">
+            <li class="list-style-inline">inline element</li>
+            <li class="list-style-inline">inline element</li>
+            <li class="list-style-inline">inline element</li>
+          </ul>
+        </div>
+
+        <div class="code-snippet">
+          <script src="https://gist.github.com/dev-prabhat/3cc4dc3dca5040b71d15e14b396df1f4.js"></script>
+        </div>
+
+        <!--------------------- Notification Stacked List component ----------------------->
+
+        <h2 class="head-lg">Example of Notification Stacked List</h2>
+        <p class="text-md font-weight-light text-gray">
+          This is stacked list without bullets. We can add desired component
+          inside "li" element. Check below code for cards in stacked list.
+        </p>
+
+        <div class="list-wrapper padding-md border-radius-xs">
+          <ul class="styled-list list-style-none d-inline_block">
+            <li>
+              <div class="card-container d-flex padding-xs">
+                <div class="avatar-md position-rel margin-xs">
+                  <img
+                    class="img-responsive"
+                    src="/assests/Images/example_image1-min.jpg"
+                    alt="black_jacket"
+                  />
+                </div>
+                <div class="card-description">
+                  <h1 class="card-title head-3">Black Jacket</h1>
+                  <h2 class="card-subtitle head-4">Men's Cap</h2>
+                  <h3 class="head-4 text-gray">Sold by: Prabhat Singh</h3>
+                  <p class="text-4 text-gray">2 hours ago</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="card-container d-flex padding-xs">
+                <div class="avatar-md position-rel margin-xs">
+                  <img
+                    class="img-responsive"
+                    src="/assests/Images/example_image1-min.jpg"
+                    alt="black_jacket"
+                  />
+                </div>
+                <div class="card-description">
+                  <h1 class="card-title head-3">Black Cap</h1>
+                  <h2 class="card-subtitle head-4">Men's Cap</h2>
+                  <h3 class="head-4 text-gray">Sold by: Prabhat Singh</h3>
+                  <p class="text-4 text-gray">3 hours ago</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!--------------------image code ------------------------>
+        <div class="code-snippet">
+          <script src="https://gist.github.com/dev-prabhat/5939b1e6a443dc1ea379ff4e467517e7.js"></script>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
