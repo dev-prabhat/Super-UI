@@ -1,0 +1,16 @@
+.grid-container {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    "header header header"
+    "side text text";
+}
+
+#text-section {
+  grid-area: text;
+}
+
+.text-wrapper {
+  margin: 1rem 0;
+  border: 1px solid var(--dark-theme-light-color);
+}
