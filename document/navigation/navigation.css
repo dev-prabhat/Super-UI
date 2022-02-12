@@ -1,0 +1,30 @@
+.grid-container {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    "header header header"
+    "side nav nav";
+}
+
+#nav-section {
+  grid-area: nav;
+}
+
+.nav-wrapper {
+  margin: 1rem 0;
+  border: 1px solid var(--dark-theme-light-color);
+}
+
+.nav-bar {
+  padding: 0rem 1rem;
+  background-color: var(--secondary-theme-color);
+}
+
+.search-container {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.tranform {
+  transform: translate(20%, -50%);
+}
