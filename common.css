@@ -28,7 +28,7 @@ body {
   align-items: center;
 }
 
-.nav-bar {
+.main-nav-bar {
   display: flex;
   flex-direction: row;
 }
