@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Super UI | Image</title>
+    <title>Super UI | Toast</title>
     <link rel="stylesheet" href="/gist.css" />
     <link
       rel="stylesheet"
@@ -43,7 +43,7 @@
           >Button</a
         >
         <a class="d-block btn-link" href="/document/card/card.html">Card</a>
-        <a class="d-block btn-link" href="#image">Image</a>
+        <a class="d-block btn-link" href="#image-section">Image</a>
         <a class="d-block btn-link" href="/document/form/form.html">Form</a>
         <a class="d-block btn-link" href="/document/list/list.html">List</a>
         <a
@@ -55,60 +55,38 @@
         <a class="d-block btn-link" href="/document/navigation/navigation.html"
           >Navigation</a
         >
-        <a class="d-block btn-link" href="/document/toast/toast.html">Toast</a>
+        <a class="d-block btn-link" href="#toast">Toast</a>
       </nav>
-      <section id="image" class="content margin-lg">
-        <h1 class="head-xl">Images</h1>
-        <p class="text-md font-weight-light text-gray">
-          Images can be responsive to fit the parent's width, and also can be
-          customised to be round shaped
+      <section id="toast" class="content margin-lg">
+        <h1 class="head-xl">Toast</h1>
+        <p class="text-md text-gray">
+          This component can be used for toast or snackbar component. Toast is
+          mostly used to show feedback message. Snackbar is to used show message
+          that need user action
         </p>
 
-        <h2 class="head-lg">Example of Responsive Image</h2>
-        <p class="text-md font-weight-light text-gray">
-          You can add class img-responsive to make your image fit the width of
-          container. It's height will get adjusted by keeping the aspect ratio
-          same. If you want to change the aspect ratio, you will have to crop
-          the image.
+        <h2 class="head-lg">Example of Toast</h2>
+        <p class="text-md text-gray">
+          Add toast class to wrapper. Toast has 3 themes, for error, success,
+          warning, add toast-success, toast-error, toast-inform class to style
+          the theme.
         </p>
 
-        <!--------------------image components ------------------------>
+        <!--------------------toast components ------------------------>
 
-        <div class="component-wrapper padding-md border-radius-xs">
-          <div class="img-container">
-            <img
-              class="img-responsive"
-              src="/assests/Images/example_image3-min.jpg"
-              alt="background_image"
-            />
+        <div class="component-wrapper padding-md border-radius-xs d-flex">
+          <div class="toast toast-success margin-xs">Saved!</div>
+
+          <div class="toast toast-error margin-xs">
+            Not Saved! ,Try again later
           </div>
+
+          <div class="toast toast-inform margin-xs">Saving to Server...</div>
         </div>
-        <!--------------------image code ------------------------>
+        <!--------------------toast code ------------------------>
 
         <div class="code-snippet">
-          <script src="https://gist.github.com/dev-prabhat/27c2778a6c0bb22be837e35e729a4344.js"></script>
-        </div>
-
-        <!--------------------round image components ------------------------>
-
-        <h2 class="head-lg">Example of Round Image</h2>
-        <p class="text-md font-weight-light text-gray">
-          You can add class img-round to make your image round shaped.
-        </p>
-
-        <div class="component-wrapper padding-md border-radius-xs">
-          <div class="avatar-xl">
-            <img
-              class="img-responsive img-round"
-              src="/assests/Images/example_image2-min.jpg"
-              alt="avatar_image"
-            />
-          </div>
-        </div>
-
-        <!--------------------round image  code ------------------------>
-        <div class="code-snippet">
-          <script src="https://gist.github.com/dev-prabhat/d75b62d55f76e53fdcf414536e52952f.js"></script>
+          <script src="https://gist.github.com/dev-prabhat/8586b70f6be486639d5fd23f0e35d4cb.js"></script>
         </div>
       </section>
     </div>
