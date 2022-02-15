@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Super UI | Toast</title>
+    <title>Super UI | Rating</title>
     <link rel="stylesheet" href="/gist.css" />
     <link
       rel="stylesheet"
@@ -53,7 +53,7 @@
         <a class="d-block btn-link components" href="/document/card/card.html"
           >Card</a
         >
-        <a class="d-block btn-link components" href="#image-section">Image</a>
+        <a class="d-block btn-link components" href="#image">Image</a>
         <a class="d-block btn-link components" href="/document/form/form.html"
           >Form</a
         >
@@ -71,45 +71,50 @@
           href="/document/navigation/navigation.html"
           >Navigation</a
         >
-        <a class="d-block btn-link components active-component" href="#toast"
+        <a class="d-block btn-link components" href="/document/toast/toast.html"
           >Toast</a
         >
-        <a
-          class="d-block btn-link components"
-          href="/document/rating/rating.html"
+        <a class="d-block btn-link components active-component" href="#rating"
           >Rating</a
         >
       </nav>
-      <section id="toast" class="content margin-lg">
-        <h1 class="head-xl">Toast</h1>
-        <p class="text-md text-gray">
-          This component can be used for toast or snackbar component. Toast is
-          mostly used to show feedback message. Snackbar is to used show message
-          that need user action
+      <section id="rating" class="content margin-lg">
+        <h1 class="head-xl">Rating</h1>
+        <p class="text-md font-weight-light text-gray">
+          Rating components can be used as to get feedback of a product or
+          services from the user
         </p>
 
-        <h2 class="head-lg">Example of Toast</h2>
-        <p class="text-md text-gray">
-          Add toast class to wrapper. Toast has 3 themes, for error, success,
-          warning, add toast-success, toast-error, toast-inform class to style
-          the theme.
+        <h2 class="head-lg">Example of ratings</h2>
+        <p class="text-md font-weight-light text-gray">
+          Here is the Rating component and you can give any rating from one star
+          to five star
         </p>
 
-        <!--------------------toast components ------------------------>
+        <!--------------------rating components ------------------------>
 
-        <div class="component-wrapper padding-md border-radius-xs d-flex">
-          <div class="toast toast-success margin-xs">Saved!</div>
+        <div class="component-wrapper padding-md border-radius-xs">
+          <div class="star-rating">
+            <input type="radio" name="stars" id="star-a" value="5" />
+            <label for="star-a"></label>
 
-          <div class="toast toast-error margin-xs">
-            Not Saved! ,Try again later
+            <input type="radio" name="stars" id="star-b" value="4" />
+            <label for="star-b"></label>
+
+            <input type="radio" name="stars" id="star-c" value="3" />
+            <label for="star-c"></label>
+
+            <input type="radio" name="stars" id="star-d" value="2" />
+            <label for="star-d"></label>
+
+            <input type="radio" name="stars" id="star-e" value="1" />
+            <label for="star-e"></label>
           </div>
-
-          <div class="toast toast-inform margin-xs">Saving to Server...</div>
         </div>
-        <!--------------------toast code ------------------------>
+        <!--------------------rating code ------------------------>
 
         <div class="code-snippet">
-          <script src="https://gist.github.com/dev-prabhat/8586b70f6be486639d5fd23f0e35d4cb.js"></script>
+          <script src="https://gist.github.com/dev-prabhat/8d11b7399674696b19c8a88c9c03e1b3.js"></script>
         </div>
       </section>
     </div>
