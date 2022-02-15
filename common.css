@@ -30,6 +30,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  background-color: var(--danger-light-color);
 }
 
 .main-nav-bar {
@@ -39,6 +40,18 @@ body {
 
 .side-bar {
   grid-area: side;
+}
+
+.components {
+  margin: 2px 0;
+}
+
+.components:hover {
+  background-color: var(--dark-theme-shade-80);
+}
+
+.active-component {
+  background-color: var(--danger-light-color);
 }
 
 .content {
