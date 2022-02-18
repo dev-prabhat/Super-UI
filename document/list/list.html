@@ -30,74 +30,81 @@
           <a class="btn-link text-md" href="/">Github</a>
         </nav>
       </header>
-      <nav class="side-bar margin-lg">
-        <h1 class="head-lg margin-xs">Components</h1>
-        <a class="d-block btn-link components" href="/document/alert/alert.html"
-          >Alert</a
-        >
-        <a
-          class="d-block btn-link components"
-          href="/document/avatar/avatar.html"
-          >Avatar</a
-        >
-        <a
-          class="d-block btn-link components"
-          href="/document/badges/badges.html"
-          >Badges</a
-        >
-        <a
-          class="d-block btn-link components"
-          href="/document/button/button.html"
-          >Button</a
-        >
-        <a class="d-block btn-link components" href="/document/card/card.html"
-          >Card</a
-        >
-        <a class="d-block btn-link components" href="/document/image/image.html"
-          >Image</a
-        >
-        <a class="d-block btn-link components" href="/document/form/form.html"
-          >Form</a
-        >
-        <a class="d-block btn-link components active-component" href="#list"
-          >List</a
-        >
-        <a
-          class="d-block btn-link components"
-          href="/document/text_utilities/text_utilities.html"
-          >Text Utilities</a
-        >
-
-        <a
-          class="d-block btn-link components"
-          href="/document/navigation/navigation.html"
-          >Navigation</a
-        >
-        <a class="d-block btn-link components" href="/document/toast/toast.html"
-          >Toast</a
-        >
-        <a
-          class="d-block btn-link components"
-          href="/document/rating/rating.html"
-          >Rating</a
-        >
-      </nav>
-      <section id="list" class="content margin-lg">
+      <div class="side-bar-container">
+        <nav class="side-bar">
+          <h1 class="head-lg margin-xs">Components</h1>
+          <a
+            class="d-block btn-link components"
+            href="/document/alert/alert.html"
+            >Alert</a
+          >
+          <a
+            class="d-block btn-link components"
+            href="/document/avatar/avatar.html"
+            >Avatar</a
+          >
+          <a
+            class="d-block btn-link components"
+            href="/document/badges/badges.html"
+            >Badges</a
+          >
+          <a
+            class="d-block btn-link components"
+            href="/document/button/button.html"
+            >Button</a
+          >
+          <a class="d-block btn-link components" href="/document/card/card.html"
+            >Card</a
+          >
+          <a
+            class="d-block btn-link components"
+            href="/document/image/image.html"
+            >Image</a
+          >
+          <a class="d-block btn-link components" href="/document/form/form.html"
+            >Form</a
+          >
+          <a class="d-block btn-link components active-component" href="#list"
+            >List</a
+          >
+          <a
+            class="d-block btn-link components"
+            href="/document/text_utilities/text_utilities.html"
+            >Text Utilities</a
+          >
+          <a
+            class="d-block btn-link components"
+            href="/document/navigation/navigation.html"
+            >Navigation</a
+          >
+          <a
+            class="d-block btn-link components"
+            href="/document/toast/toast.html"
+            >Toast</a
+          >
+          <a
+            class="d-block btn-link components"
+            href="/document/rating/rating.html"
+            >Rating</a
+          >
+        </nav>
+      </div>
+      <section id="list" class="content margin-sm">
         <h1 class="head-xl">Lists</h1>
-        <p class="text-md font-weight-light text-gray">
+        <p class="text-sm font-weight-light text-gray">
           Lists can be used at so many places, navigation bar, stacked
           notifications, article pages, etc.
         </p>
 
-        <h2 class="head-lg">Example of Unordered List with bullets</h2>
-        <p class="text-md font-weight-light text-gray">
+        <h2 class="head-md">Example of Unordered List with bullets</h2>
+        <p class="text-sm font-weight-light text-gray">
           Add class according to bullet style. Copy html code below and add your
           desired list items.
         </p>
 
         <!--------------------unordered list components ------------------------>
 
-        <div class="component-wrapper padding-md border-radius-xs">
+        <div class="component-wrapper padding-xs border-radius-xs">
           <ul class="styled-list padding-md d-inline_block">
             <li>list item1</li>
             <li>list item2</li>
@@ -124,14 +131,14 @@
 
         <!--------------------ordered list components ------------------------>
 
-        <h2 class="head-lg">Example of Ordered List with bullets</h2>
-        <p class="text-md font-weight-light text-gray">
+        <h2 class="head-md">Example of Ordered List with bullets</h2>
+        <p class="text-sm font-weight-light text-gray">
           Add class according to bullet style. Copy html code below and add your
           desired list items. To reverse the order of ordered list, add reversed
           attribute to ol element
         </p>
 
-        <div class="component-wrapper padding-md border-radius-xs">
+        <div class="component-wrapper padding-xs border-radius-xs">
           <div>
             <ol class="styled-list padding-md d-inline_block">
               <li>list with numbers</li>
@@ -187,14 +194,16 @@
         </div>
 
         <!---------------------list with no bullets component ----------------------->
-        <h2 class="head-lg">Example of List with no bullets</h2>
-        <p class="text-md font-weight-light text-gray">
+        <h2 class="head-md">Example of List with no bullets</h2>
+        <p class="text-sm font-weight-light text-gray">
           If you want list stacked but with no bullet and indentation, then you
-          can add list-style-none class. Class styled-list applies padding
-          between two list items.
+          can add list-style-none class.
+        </p>
+        <p class="text-sm font-weight-light text-gray">
+          Class styled-list applies padding between two list items.
         </p>
 
-        <div class="list-wrapper padding-md border-radius-xs">
+        <div class="component-wrapper padding-xs border-radius-xs">
           <ul class="styled-list list-style-none padding-md d-inline_block">
             <li>list item no bullets</li>
             <li>list item no bullets</li>
@@ -208,14 +217,16 @@
         </div>
 
         <!--------------------- inline list component ----------------------->
-        <h2 class="head-lg">Example of List with inline items</h2>
-        <p class="text-md font-weight-light text-gray">
+        <h2 class="head-md">Example of List with inline items</h2>
+        <p class="text-sm font-weight-light text-gray">
           If you want list items in same line instead of stacked, you can add
-          inline-list class to make it inline. And you can also add
-          list-style-none class to remove bullets.
+          inline-list class to make it inline.
         </p>
-        <div class="component-wrapper padding-md border-radius-xs">
-          <ul class="styled-list padding-md">
+        <p class="text-sm font-weight-light text-gray">
+          And you can also add list-style-none class to remove bullets.
+        </p>
+        <div class="component-wrapper padding-xs border-radius-xs">
+          <ul class="styled-list padding-sm">
             <li class="list-style-inline">inline element</li>
             <li class="list-style-inline">inline element</li>
             <li class="list-style-inline">inline element</li>
@@ -230,13 +241,13 @@
 
         <!--------------------- Notification Stacked List component ----------------------->
 
-        <h2 class="head-lg">Example of Notification Stacked List</h2>
-        <p class="text-md font-weight-light text-gray">
+        <h2 class="head-md">Example of Notification Stacked List</h2>
+        <p class="text-sm font-weight-light text-gray">
           This is stacked list without bullets. We can add desired component
-          inside "li" element. Check below code for cards in stacked list.
+          inside "li" element.
         </p>
 
-        <div class="component-wrapper padding-md border-radius-xs">
+        <div class="component-wrapper padding-xs border-radius-xs">
           <ul class="styled-list list-style-none d-inline_block">
             <li>
               <div class="card-container d-flex padding-xs">
