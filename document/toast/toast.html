@@ -6,12 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Super UI | Toast</title>
     <link rel="stylesheet" href="/gist.css" />
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-    />
     <link rel="stylesheet" href="/common.css" />
   </head>
   <body>
@@ -30,74 +24,77 @@
           <a class="btn-link text-md" href="/">Github</a>
         </nav>
       </header>
-      <nav class="side-bar margin-lg">
-        <h1 class="head-lg margin-xs">Components</h1>
-        <a class="d-block btn-link components" href="/document/alert/alert.html"
-          >Alert</a
-        >
-        <a
-          class="d-block btn-link components"
-          href="/document/avatar/avatar.html"
-          >Avatar</a
-        >
-        <a
-          class="d-block btn-link components"
-          href="/document/badges/badges.html"
-          >Badges</a
-        >
-        <a
-          class="d-block btn-link components"
-          href="/document/button/button.html"
-          >Button</a
-        >
-        <a class="d-block btn-link components" href="/document/card/card.html"
-          >Card</a
-        >
-        <a class="d-block btn-link components" href="#image-section">Image</a>
-        <a class="d-block btn-link components" href="/document/form/form.html"
-          >Form</a
-        >
-        <a class="d-block btn-link components" href="/document/list/list.html"
-          >List</a
-        >
-        <a
-          class="d-block btn-link components"
-          href="/document/text_utilities/text_utilities.html"
-        >
-          Text Utilities
-        </a>
-        <a
-          class="d-block btn-link components"
-          href="/document/navigation/navigation.html"
-          >Navigation</a
-        >
-        <a class="d-block btn-link components active-component" href="#toast"
-          >Toast</a
-        >
-        <a
-          class="d-block btn-link components"
-          href="/document/rating/rating.html"
-          >Rating</a
-        >
-      </nav>
-      <section id="toast" class="content margin-lg">
+      <div class="side-bar-container">
+        <nav class="side-bar">
+          <h1 class="head-lg margin-xs">Components</h1>
+          <a
+            class="d-block btn-link components"
+            href="/document/alert/alert.html"
+            >Alert</a
+          >
+          <a
+            class="d-block btn-link components"
+            href="/document/avatar/avatar.html"
+            >Avatar</a
+          >
+          <a
+            class="d-block btn-link components"
+            href="/document/badges/badges.html"
+            >Badges</a
+          >
+          <a
+            class="d-block btn-link components"
+            href="/document/button/button.html"
+            >Button</a
+          >
+          <a class="d-block btn-link components" href="/document/card/card.html"
+            >Card</a
+          >
+          <a class="d-block btn-link components" href="#image-section">Image</a>
+          <a class="d-block btn-link components" href="/document/form/form.html"
+            >Form</a
+          >
+          <a class="d-block btn-link components" href="/document/list/list.html"
+            >List</a
+          >
+          <a
+            class="d-block btn-link components"
+            href="/document/text_utilities/text_utilities.html"
+          >
+            Text Utilities
+          </a>
+          <a
+            class="d-block btn-link components"
+            href="/document/navigation/navigation.html"
+            >Navigation</a
+          >
+          <a class="d-block btn-link components active-component" href="#toast"
+            >Toast</a
+          >
+          <a
+            class="d-block btn-link components"
+            href="/document/rating/rating.html"
+            >Rating</a
+          >
+        </nav>
+      </div>
+      <section id="toast" class="content margin-sm">
         <h1 class="head-xl">Toast</h1>
-        <p class="text-md text-gray">
+        <p class="text-sm text-gray">
           This component can be used for toast or snackbar component. Toast is
           mostly used to show feedback message. Snackbar is to used show message
           that need user action
         </p>
 
-        <h2 class="head-lg">Example of Toast</h2>
-        <p class="text-md text-gray">
-          Add toast class to wrapper. Toast has 3 themes, for error, success,
-          warning, add toast-success, toast-error, toast-inform class to style
-          the theme.
+        <h2 class="head-md">Example of Toast</h2>
+        <p class="text-sm text-gray">
+          Add toast class to wrapper. Toast has 3 themes toast-success,
+          toast-error, toast-inform class to style the theme.
         </p>
 
         <!--------------------toast components ------------------------>
 
-        <div class="component-wrapper padding-md border-radius-xs d-flex">
+        <div class="component-wrapper padding-xs border-radius-xs d-flex">
           <div class="toast toast-success margin-xs">Saved!</div>
 
           <div class="toast toast-error margin-xs">
