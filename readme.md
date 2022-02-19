@@ -24,18 +24,22 @@ To start using the Component Library Copy and Paste the given code inn your HTML
 
 ## Components
 
--[Alert](#alert)
--[Avatar](#avatar)
--[Badges](#badges)
--[Button](#button)
--[Card](#card)
--[Image](#image)
--[Form](#form)
--[List](#list)
--[Utilities](#utilities)
--[Navigation](#navigation)
--[Toast](#toast)
--[Rating](#rating)
+- [Super UI - A Component Library for your all needs](#super-ui---a-component-library-for-your-all-needs)
+  - [Live Website: Super UI](#live-website-super-ui)
+  - [Getting Start](#getting-start)
+  - [Components](#components)
+  - [Alert](#alert)
+  - [Avatar](#avatar)
+  - [Badges](#badges)
+  - [Button](#button)
+  - [Card](#card)
+  - [Image](#image)
+  - [Form](#form)
+  - [List](#list)
+  - [Utilities](#utilities)
+  - [Navigation](#navigation)
+  - [Toast](#toast)
+  - [Rating](#rating)
 
 ---
 
@@ -90,9 +94,9 @@ Buttons are also called as call to action. We have range of buttons and their st
 
 We have three types of Button Component:
 
--Primary Button
--Link Button
--Icon Button
+- Primary Button
+- Link Button
+- Icon Button
 
 
 Click here: https://super-ui.netlify.app/document/button/button.html
@@ -105,8 +109,8 @@ Card are used to show user related data collectively, like product details
 
 We have two types of Card Component:
 
--Horizontal Card
--Vertical Card
+- Horizontal Card
+- Vertical Card
 
 Click here: https://super-ui.netlify.app/document/card/card.html
 
@@ -118,8 +122,8 @@ Images can be responsive to fit the parent's width, and also can be customised t
 
 We have two types of Image Component:
 
--Responsive Image
--Responsive Round Image
+- Responsive Image
+- Responsive Round Image
 
 Click here: https://super-ui.netlify.app/document/image/image.html
 
@@ -160,10 +164,10 @@ Utilities Class are used to provide same font-size , font-weight and text-color 
 
 We have four types of Utilities Class:
 
--Heading
--Text
--Text color
--Text Alignment
+- Heading
+- Text
+- Text color
+- Text Alignment
 
 Click here: https://super-ui.netlify.app/document/text_utilities/text_utilities.html
 
@@ -175,8 +179,8 @@ Naviagtion Bar or say Nav-bar is used in any website where all the essential opt
 
 We any only one of Navigation Component:
 
--Normal Navigation
-
+- Normal Navigation
+   
 Click here: https://super-ui.netlify.app/document/navigation/navigation.html
 
 ---
@@ -187,9 +191,9 @@ This component can be used for toast or snackbar component. Toast is mostly used
 
 We have three types of Toast Component:
 
--Success Toast
--Danger Toast
--Info Toast
+- Success Toast
+- Danger Toast
+- Info Toast
 
 Click here: https://super-ui.netlify.app/document/toast/toast.html
 
@@ -201,7 +205,7 @@ Rating components can be used as to get feedback of a product or services from t
 
 We have only one type of Rating Component:
 
--Standard Rating
+- Standard Rating
 
 Click here: https://super-ui.netlify.app/document/rating/rating.html
 
