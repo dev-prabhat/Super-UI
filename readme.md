@@ -5,6 +5,7 @@ An open source Library where you get all the Styles and Component related to you
 ---
 
 ## Live Website: [Super UI](https://super-ui.netlify.app/)
+### Github Repo of Components: [Github](https://github.com/dev-prabhat/component-lib)
 
 ---
 
@@ -24,10 +25,6 @@ To start using the Component Library Copy and Paste the given code inn your HTML
 
 ## Components
 
-- [Super UI - A Component Library for your all needs](#super-ui---a-component-library-for-your-all-needs)
-  - [Live Website: Super UI](#live-website-super-ui)
-  - [Getting Start](#getting-start)
-  - [Components](#components)
   - [Alert](#alert)
   - [Avatar](#avatar)
   - [Badges](#badges)
@@ -57,6 +54,8 @@ We have seven types of Alert Component:
 - Light Alert
 - Dark Alert
 
+
+
 Click here: https://super-ui.netlify.app/document/alert/alert.html
 
 ---
@@ -65,10 +64,9 @@ Click here: https://super-ui.netlify.app/document/alert/alert.html
 
 Avatar can be used to show user's profile picture on profile information page, on navigation bar, in blogs grid items
 
-We have two types of Avatar Component:
+We have only one type of Avatar Component:
 
 - Image Rounded Avatar
-- Text Rounded Avatar
 
 Click here: https://super-ui.netlify.app/document/avatar/avatar.html
 
