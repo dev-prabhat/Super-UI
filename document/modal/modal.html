@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Super UI | Alert</title>
+    <title>Super UI | Modal</title>
     <link rel="stylesheet" href="/gist.css" />
     <link rel="stylesheet" href="/common.css" />
   </head>
@@ -31,7 +31,7 @@
       <div class="side-bar-container">
         <nav class="side-bar">
           <h1 class="head-lg margin-xs">Components</h1>
-          <a class="d-block btn-link components active-component" href="#alert"
+          <a class="d-block btn-link components active-component" href="/document/alert/alert.html"
             >Alert
           </a>
 
@@ -89,58 +89,55 @@
           >
 
           <a
-          class="d-block btn-link components"
-          href="/document/slider/slider.html"
-          >Slider</a>
-
-          <a
             class="d-block btn-link components"
-            href="/document/modal/modal.html"
-             >Modal</a>
-
-          <a
-            class="d-block btn-link components"
-            href="/document/grid/grid.html"
-            >Grid Simplified</a
+            href="#modal"
+            >Modal</a
           >
+
+          <a
+          class="d-block btn-link components"
+          href="/document/grid/grid.html"
+          >Grid Simplified</a
+        >
         </nav>
       </div>
 
-      <section id="alert" class="content margin-sm">
-        <h1 class="head-xl">Alerts</h1>
+      <section id="modal" class="content margin-sm">
+        <h1 class="head-xl">Modal</h1>
         <p class="text-sm font-weight-light text-gray">
-          Alerts are used to attract user's attention for important information
-          without interrupting the user's flow.
+            Modals are positioned over everything else in the document and remove scroll from the page. It gets closed only with close button on modal pop-up.
         </p>
 
-        <h2 class="head-md">Example of Alert Bar</h2>
+        <h2 class="head-md">Example of Modal</h2>
         <p class="text-sm font-weight-light text-gray">
-          Alerts are available in 5 types primary alert, secondary alert,
-          success alert, danger alert, warning alert, light alert and dark
-          alert. To use alrt just use class name alert and also add classes
-          accordingly like alert-primary, alert-secondary, alert-success,
-          alert-danger, alert-warning, alert-light or alert-dark (eg
-          class="alert alert-danger")
+            You need to have wrapper div modal class. Inside that, you can wrap content inside div.modal-container that you need to show in pop-up
         </p>
 
         <!--------------------alert components ------------------------>
 
-        <div class="component-wrapper padding-xs border-radius-xs">
-          <div class="alert alert-primary margin-xs">This is primary alert</div>
-          <div class="alert alert-secondary margin-xs">
-            This is secondary alert
-          </div>
-          <div class="alert alert-success margin-xs">This is success alert</div>
-          <div class="alert alert-danger margin-xs">This is danger alert</div>
-          <div class="alert alert-warning margin-xs">This is warning alert</div>
-          <div class="alert alert-light margin-xs">This is light alert</div>
-          <div class="alert alert-dark margin-xs">This is dark alert</div>
+        <div class="component-wrapper padding-xs border-radius-xs ">
+            <div class="modal-preview">
+                <div class="modal-container-preview">
+                  <span class="close-btn-preview">&times;</span>
+                  <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo totam magni tenetur. Nostrum, eum aspernatur! Nostrum adipisci, veniam animi natus optio deleniti dolor voluptatum qui mollitia ipsa illo inventore repellat.</h1>
+                </div>
+            </div>
         </div>
 
+        <button class="btn btn-primary trigger">Click me</button>
+        <div class="modal">
+          <div class="modal-container">
+            <span class="close-btn">&times;</span>
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo totam magni tenetur. Nostrum, eum aspernatur! Nostrum adipisci, veniam animi natus optio deleniti dolor voluptatum qui mollitia ipsa illo inventore repellat.</h1>
+          </div>
+        </div>
+      
+
         <div class="code-snippet">
-          <script src="https://gist.github.com/dev-prabhat/1b77f6d23dda20cfc7eded4f0631cdff.js"></script>
+          <script src="https://gist.github.com/dev-prabhat/d9683a46439267df9370375012b8fb8f.js"></script>
         </div>
       </section>
+      <script type="text/javascript" src="https://deploy-preview-36--tender-mccarthy-d4aa39.netlify.app/js/modal.js"></script>
     </div>
   </body>
 </html>

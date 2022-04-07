@@ -2,6 +2,8 @@
 
 An open source Library where you get all the Styles and Component related to your Website . It is based on plain CSS but combine with utility CSS which gives flexibility and control to the user related to any component.
 
+This is Temp-dev Branch with all P1 components 
+
 ---
 
 ## Live Website: [Super UI](https://super-ui.netlify.app/)
@@ -14,11 +16,11 @@ An open source Library where you get all the Styles and Component related to you
 To start using the Component Library Copy and Paste the given code inn your HTML file or import it in Main css file
 
 ```html
-    <link rel="stylesheet" href="https://tender-mccarthy-d4aa39.netlify.app/component.css"/>
+    <link rel="stylesheet" href="https://deploy-preview-36--tender-mccarthy-d4aa39.netlify.app/component.css"/>
 ```
 
 ```css
-   @import url("https://tender-mccarthy-d4aa39.netlify.app/component.css");
+   @import url("https://deploy-preview-36--tender-mccarthy-d4aa39.netlify.app/component.css");
 ```
 
 ---
@@ -37,6 +39,9 @@ To start using the Component Library Copy and Paste the given code inn your HTML
   - [Navigation](#navigation)
   - [Toast](#toast)
   - [Rating](#rating)
+  - [Slider](#slider)
+  - [Modal](#modal)
+  - [Grid](#grid)
 
 ---
 
@@ -56,7 +61,7 @@ We have seven types of Alert Component:
 
 
 
-Click here: https://super-ui.netlify.app/document/alert/alert.html
+Click here: https://deploy-preview-29--super-ui.netlify.app/document/alert/alert.html
 
 ---
 
@@ -68,7 +73,7 @@ We have only one type of Avatar Component:
 
 - Image Rounded Avatar
 
-Click here: https://super-ui.netlify.app/document/avatar/avatar.html
+Click here: https://deploy-preview-29--super-ui.netlify.app/document/avatar/avatar.html
 
 
 ---
@@ -82,7 +87,7 @@ We have two types of Badges Component:
 - Image Rounded Avatar
 - Text Rounded Avatar
 
-Click here: https://super-ui.netlify.app/document/badges/badges.html
+Click here: https://deploy-preview-29--super-ui.netlify.app/document/badges/badges.html
 
 ---
 
@@ -97,7 +102,7 @@ We have three types of Button Component:
 - Icon Button
 
 
-Click here: https://super-ui.netlify.app/document/button/button.html
+Click here: https://deploy-preview-29--super-ui.netlify.app/document/button/button.html
 
 ---
 
@@ -110,7 +115,7 @@ We have two types of Card Component:
 - Horizontal Card
 - Vertical Card
 
-Click here: https://super-ui.netlify.app/document/card/card.html
+Click here: https://deploy-preview-29--super-ui.netlify.app/document/card/card.html
 
 ---
 
@@ -123,7 +128,7 @@ We have two types of Image Component:
 - Responsive Image
 - Responsive Round Image
 
-Click here: https://super-ui.netlify.app/document/image/image.html
+Click here: https://deploy-preview-29--super-ui.netlify.app/document/image/image.html
 
 
 ---
@@ -137,7 +142,7 @@ We have two types of Form Components:
 - Active form fields
 - Disabled form fields
 
-Click here: https://super-ui.netlify.app/document/form/form.html
+Click here: https://deploy-preview-29--super-ui.netlify.app/document/form/form.html
 
 ---
 
@@ -152,7 +157,7 @@ We have four types of List Components:
 - List with no bullets
 - List with inline items
 
-Click here: https://super-ui.netlify.app/document/list/list.html
+Click here: https://deploy-preview-29--super-ui.netlify.app/document/list/list.html
 
 ---
 
@@ -167,7 +172,7 @@ We have four types of Utilities Class:
 - Text color
 - Text Alignment
 
-Click here: https://super-ui.netlify.app/document/text_utilities/text_utilities.html
+Click here: https://deploy-preview-29--super-ui.netlify.app/document/text_utilities/text_utilities.html
 
 ---
 
@@ -179,7 +184,7 @@ We any only one of Navigation Component:
 
 - Normal Navigation
    
-Click here: https://super-ui.netlify.app/document/navigation/navigation.html
+Click here: https://deploy-preview-29--super-ui.netlify.app/document/navigation/navigation.html
 
 ---
 
@@ -193,7 +198,7 @@ We have three types of Toast Component:
 - Danger Toast
 - Info Toast
 
-Click here: https://super-ui.netlify.app/document/toast/toast.html
+Click here: https://deploy-preview-29--super-ui.netlify.app/document/toast/toast.html
 
 ---
 
@@ -205,7 +210,48 @@ We have only one type of Rating Component:
 
 - Standard Rating
 
-Click here: https://super-ui.netlify.app/document/rating/rating.html
+Click here: https://deploy-preview-29--super-ui.netlify.app/document/rating/rating.html
+
+---
+
+
+## Slider
+
+Sliders are used to decide range for something like sound in videos, price in shopping sites, etc.
+
+We have only two type of Slider Component:
+
+- Standard Rating
+- Custom Slider
+
+Click here: https://deploy-preview-29--super-ui.netlify.app/document/slider/slider.html
+
+---
+
+
+## Modal
+
+Modals are positioned over everything else in the document and remove scroll from the page. It gets closed only with close button on modal pop-up. 
+
+We have only one type of Modal Component:
+
+- Standard Modal
+
+Click here: https://deploy-preview-29--super-ui.netlify.app/document/modal/modal.html
+
+---
+
+
+## Grid
+
+Use grid when you want sections in view. Check below some examples of side by side cards.
+
+We have only two type of Grid System:
+
+- 2 Column Grid
+- 3 Column Grid
+
+Click here: https://deploy-preview-29--super-ui.netlify.app/document/grid/grid.html
 
 ---
 

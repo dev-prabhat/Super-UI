@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Super UI | Toast</title>
+    <title>Super UI | Grid</title>
     <link rel="stylesheet" href="/gist.css" />
     <link rel="stylesheet" href="/common.css" />
   </head>
@@ -78,55 +78,62 @@
           >
 
           <a
-          class="d-block btn-link components"
-          href="/document/slider/slider.html"
-          >Slider</a
-        >
-         
-          <a
             class="d-block btn-link components"
             href="/document/modal/modal.html"
             >Modal</a
           >
 
           <a
-          class="d-block btn-link components"
-          href="/document/grid/grid.html"
-          >Grid Simplified</a
-        >
-
+            class="d-block btn-link components"
+            href="#grid_simplified"
+            >Grid Simplified</a
+          >
         </nav>
       </div>
-      <section id="toast" class="content margin-sm">
-        <h1 class="head-xl">Toast</h1>
+      <section id="grid_simplified" class="content margin-sm">
+        <h1 class="head-xl">Grid Simplified</h1>
         <p class="text-sm text-gray">
-          This component can be used for toast or snackbar component. Toast is
-          mostly used to show feedback message. Snackbar is to used show message
-          that need user action
+            Use grid when you want sections in view. Check below some examples of side by side cards.
         </p>
 
-        <h2 class="head-md">Example of Toast</h2>
+        <h2 class="head-md">Example of 2 column layout</h2>
         <p class="text-sm text-gray">
-          Add toast class to wrapper. Toast has 3 themes toast-success,
-          toast-error, toast-inform class to style the theme.
+            Add grid-2-col class on wrapper div which is wrapping 2 divs and grid-item for the individual grid children
         </p>
 
-        <!--------------------toast components ------------------------>
+         <!--------------------grid-2-column components ------------------------>
 
         <div class="component-wrapper padding-xs border-radius-xs d-flex">
-          <div class="toast toast-success margin-xs">Saved!</div>
-
-          <div class="toast toast-error margin-xs">
-            Not Saved! ,Try again later
-          </div>
-
-          <div class="toast toast-inform margin-xs">Saving to Server...</div>
+            <div class="grid-2-col margin-md">
+                <div class="grid-item">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime dicta, maiores eaque provident minima quibusdam sint optio commodi nemo reiciendis blanditiis animi tempora beatae amet, officia rem reprehenderit dignissimos nisi.</div>
+                <div class="grid-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore iusto cupiditate error quas, incidunt nisi cum, culpa molestiae laudantium enim consequatur aperiam vitae distinctio quod numquam, voluptate earum. Fuga, delectus.</div>
+              </div>
         </div>
-        <!--------------------toast code ------------------------>
+         <!--------------------grid-2-column components code ------------------------>
 
         <div class="code-snippet">
-          <script src="https://gist.github.com/dev-prabhat/8586b70f6be486639d5fd23f0e35d4cb.js"></script>
+            <script src="https://gist.github.com/dev-prabhat/f86bae8ca42ace7e05404dae813306fb.js"></script>
         </div>
+
+        <h2 class="head-md">Example of 3 column layout</h2>
+        <p class="text-sm text-gray">
+            Add grid-3-col class on wrapper div which is wrapping 3 divs and grid-item for the individual grid children
+        </p>
+
+         <!--------------------grid-2-column components ------------------------>
+        <div class="component-wrapper padding-xs border-radius-xs d-flex">
+        <div class="grid-3-col margin-md">
+            <div class="grid-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptate adipisci facere officiis corporis deserunt provident distinctio voluptates voluptas labore a assumenda veritatis itaque aperiam fuga, exercitationem ipsum maxime vitae?</div>
+            <div class="grid-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quos doloremque officia modi ipsum harum numquam. Eius sit, dolorum laboriosam exercitationem adipisci possimus, explicabo totam tempore doloremque laborum nulla necessitatibus.</div>
+            <div class="grid-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, quibusdam nesciunt. Facere in corporis ex temporibus quidem facilis et architecto ipsum voluptatibus quo, dolores error, eius porro quaerat neque sed?</div>
+          </div>
+        </div>
+
+        <!--------------------grid-3-column components code ------------------------>
+
+        <div class="code-snippet">
+            <script src="https://gist.github.com/dev-prabhat/5a976f0664ff87b0235f2a114843b9be.js"></script>
+          </div>
       </section>
     </div>
   </body>
