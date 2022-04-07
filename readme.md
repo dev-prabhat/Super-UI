@@ -16,11 +16,11 @@ This is Temp-dev Branch with all P1 components
 To start using the Component Library Copy and Paste the given code inn your HTML file or import it in Main css file
 
 ```html
-    <link rel="stylesheet" href="https://deploy-preview-29--super-ui.netlify.app/component.css"/>
+    <link rel="stylesheet" href="https://deploy-preview-36--tender-mccarthy-d4aa39.netlify.app/component.css"/>
 ```
 
 ```css
-   @import url("https://deploy-preview-29--super-ui.netlify.app/component.css");
+   @import url("https://deploy-preview-36--tender-mccarthy-d4aa39.netlify.app/component.css");
 ```
 
 ---
