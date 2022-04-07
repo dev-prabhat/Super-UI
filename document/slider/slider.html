@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Super UI | Rating</title>
+    <title>Super UI | Custom</title>
     <link rel="stylesheet" href="/gist.css" />
     <link rel="stylesheet" href="/common.css" />
   </head>
@@ -21,11 +21,7 @@
           <a class="btn-link text-md" href="/document/alert/alert.html">
             Documentation
           </a>
-          <a
-            class="btn-link text-md"
-            href="https://github.com/dev-prabhat/Super-UI"
-            >Github</a
-          >
+          <a class="btn-link text-md" href="/">Github</a>
         </nav>
       </header>
       <div class="side-bar-container">
@@ -54,7 +50,7 @@
           <a class="d-block btn-link components" href="/document/card/card.html"
             >Card</a
           >
-          <a class="d-block btn-link components" href="#image">Image</a>
+          <a class="d-block btn-link components" href="#image-section">Image</a>
           <a class="d-block btn-link components" href="/document/form/form.html"
             >Form</a
           >
@@ -72,60 +68,57 @@
             href="/document/navigation/navigation.html"
             >Navigation</a
           >
-          <a
-            class="d-block btn-link components"
-            href="/document/toast/toast.html"
+          <a class="d-block btn-link components active-component" href="#toast"
             >Toast</a
           >
-          <a class="d-block btn-link components active-component" href="#rating"
+          <a
+            class="d-block btn-link components"
+            href="/document/rating/rating.html"
             >Rating</a
           >
 
           <a
           class="d-block btn-link components"
-          href="/document/slider/slider.html"
+          href="#slider"
           >Slider</a
         >
         </nav>
       </div>
-      <section id="rating" class="content margin-sm">
-        <h1 class="head-xl">Rating</h1>
-        <p class="text-sm font-weight-light text-gray">
-          Rating components can be used as to get feedback of a product or
-          services from the user or the overall review of the product which is
-          calculated from multiple value of review from the user
+      <section id="Slider" class="content margin-sm">
+        <h1 class="head-xl">Slider</h1>
+        <p class="text-sm text-gray">
+            Sliders are used to decide range for something like sound in videos, price in shopping sites, etc.
         </p>
 
-        <h2 class="head-md">Example of ratings</h2>
-        <p class="text-sm font-weight-light text-gray">
-          Here is the Rating component and you can give any rating from one star
-          to five star
-        </p>
+        <h2 class="head-md">Example of Simple slider</h2>
 
-        <!--------------------rating components ------------------------>
+        <!--------------------slider components ------------------------>
 
-        <div class="component-wrapper padding-sm border-radius-xs">
-          <div class="star-rating">
-            <input type="radio" name="stars" id="star-a" value="5" />
-            <label for="star-a"></label>
-
-            <input type="radio" name="stars" id="star-b" value="4" />
-            <label for="star-b"></label>
-
-            <input type="radio" name="stars" id="star-c" value="3" />
-            <label for="star-c"></label>
-
-            <input type="radio" name="stars" id="star-d" value="2" />
-            <label for="star-d"></label>
-
-            <input type="radio" name="stars" id="star-e" value="1" />
-            <label for="star-e"></label>
-          </div>
+        <div class="component-wrapper padding-xs border-radius-xs d-flex">
+            <input type="range" min="1" max="100" value="30" />
         </div>
-        <!--------------------rating code ------------------------>
+        <!--------------------slider code ------------------------>
 
         <div class="code-snippet">
-          <script src="https://gist.github.com/dev-prabhat/8d11b7399674696b19c8a88c9c03e1b3.js"></script>
+            <script src="https://gist.github.com/dev-prabhat/3e53fdd0c352ca9c1a8d38769d761e79.js"></script>
+        </div>
+
+        
+        <h2 class="head-md">Example of Custom Slider</h2>
+        <p class="text-sm text-gray">
+          Here it is a custom slider which i have created from scratch using html and css , i can use custom slider in my project as this is based on my Theme of Project
+        </p>
+        
+        <!--------------------custom slider components ------------------------>
+
+        <div class="component-wrapper padding-xs border-radius-xs d-flex">
+            <input class="slider" type="range" min="1" max="100" value="30" />
+        </div>
+
+        <!--------------------custom slider components ------------------------>
+
+        <div class="code-snippet">
+            <script src="https://gist.github.com/dev-prabhat/e795463324ddc91c5c3b16f8a7dd1b20.js"></script>
         </div>
       </section>
     </div>
