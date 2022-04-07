@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Super UI | Image</title>
+    <title>Super UI | Modal</title>
     <link rel="stylesheet" href="/gist.css" />
     <link rel="stylesheet" href="/common.css" />
   </head>
@@ -18,9 +18,9 @@
         </a>
         <nav class="main-nav-bar">
           <a class="btn-link text-md" href="/">Home</a>
-          <a class="btn-link text-md" href="/document/alert/alert.html">
-            Documentation
-          </a>
+          <a class="btn-link text-md" href="/document/alert/alert.html"
+            >Documentation</a
+          >
           <a
             class="btn-link text-md"
             href="https://github.com/dev-prabhat/Super-UI"
@@ -31,21 +31,22 @@
       <div class="side-bar-container">
         <nav class="side-bar">
           <h1 class="head-lg margin-xs">Components</h1>
-          <a
-            class="d-block btn-link components"
-            href="/document/alert/alert.html"
-            >Alert</a
-          >
+          <a class="d-block btn-link components active-component" href="/document/alert/alert.html"
+            >Alert
+          </a>
+
           <a
             class="d-block btn-link components"
             href="/document/avatar/avatar.html"
-            >Avatar</a
           >
+            Avatar
+          </a>
           <a
             class="d-block btn-link components"
             href="/document/badges/badges.html"
-            >Badges</a
           >
+            Badges
+          </a>
           <a
             class="d-block btn-link components"
             href="/document/button/button.html"
@@ -54,7 +55,9 @@
           <a class="d-block btn-link components" href="/document/card/card.html"
             >Card</a
           >
-          <a class="d-block btn-link components active-component" href="#image"
+          <a
+            class="d-block btn-link components"
+            href="/document/image/image.html"
             >Image</a
           >
           <a class="d-block btn-link components" href="/document/form/form.html"
@@ -87,65 +90,48 @@
 
           <a
             class="d-block btn-link components"
-            href="/document/modal/modal.html"
+            href="#modal"
             >Modal</a
           >
         </nav>
       </div>
-      <section id="image" class="content margin-sm">
-        <h1 class="head-xl">Images</h1>
+
+      <section id="modal" class="content margin-sm">
+        <h1 class="head-xl">Modal</h1>
         <p class="text-sm font-weight-light text-gray">
-          Images can be responsive to fit the parent's width, and also can be
-          customised to be round shaped
+            Modals are positioned over everything else in the document and remove scroll from the page. It gets closed only with close button on modal pop-up.
         </p>
 
-        <h2 class="head-md">Example of Responsive Image</h2>
+        <h2 class="head-md">Example of Modal</h2>
         <p class="text-sm font-weight-light text-gray">
-          You can add class img-responsive to make your image fit the width of
-          container. It's height will get adjusted by keeping the aspect ratio
-          same. If you want to change the aspect ratio, you will have to crop
-          the image.
+            You need to have wrapper div modal class. Inside that, you can wrap content inside div.modal-container that you need to show in pop-up
         </p>
 
-        <!--------------------image components ------------------------>
+        <!--------------------alert components ------------------------>
 
-        <div class="component-wrapper padding-xs border-radius-xs">
-          <div class="img-container">
-            <img
-              class="img-responsive"
-              src="/assests/Images/example_image3-min.jpg"
-              alt="background_image"
-            />
+        <div class="component-wrapper padding-xs border-radius-xs ">
+            <div class="modal-preview">
+                <div class="modal-container-preview">
+                  <span class="close-btn-preview">&times;</span>
+                  <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo totam magni tenetur. Nostrum, eum aspernatur! Nostrum adipisci, veniam animi natus optio deleniti dolor voluptatum qui mollitia ipsa illo inventore repellat.</h1>
+                </div>
+            </div>
+        </div>
+
+        <button class="btn btn-primary trigger">Click me</button>
+        <div class="modal">
+          <div class="modal-container">
+            <span class="close-btn">&times;</span>
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo totam magni tenetur. Nostrum, eum aspernatur! Nostrum adipisci, veniam animi natus optio deleniti dolor voluptatum qui mollitia ipsa illo inventore repellat.</h1>
           </div>
         </div>
-        <!--------------------image code ------------------------>
+      
 
         <div class="code-snippet">
-          <script src="https://gist.github.com/dev-prabhat/27c2778a6c0bb22be837e35e729a4344.js"></script>
-        </div>
-
-        <!--------------------round image components ------------------------>
-
-        <h2 class="head-md">Example of Round Image</h2>
-        <p class="text-sm font-weight-light text-gray">
-          You can add class img-round to make your image round shaped.
-        </p>
-
-        <div class="component-wrapper padding-xs border-radius-xs">
-          <div class="avatar-xl">
-            <img
-              class="img-responsive img-round"
-              src="/assests/Images/example_image2-min.jpg"
-              alt="avatar_image"
-            />
-          </div>
-        </div>
-
-        <!--------------------round image  code ------------------------>
-        <div class="code-snippet">
-          <script src="https://gist.github.com/dev-prabhat/d75b62d55f76e53fdcf414536e52952f.js"></script>
+          <script src="https://gist.github.com/dev-prabhat/d9683a46439267df9370375012b8fb8f.js"></script>
         </div>
       </section>
+      <script type="text/javascript" src="https://deploy-preview-36--tender-mccarthy-d4aa39.netlify.app/js/modal.js"></script>
     </div>
   </body>
 </html>
