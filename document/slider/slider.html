@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Super UI | Toast</title>
+    <title>Super UI | Custom</title>
     <link rel="stylesheet" href="/gist.css" />
     <link rel="stylesheet" href="/common.css" />
   </head>
@@ -79,53 +79,46 @@
 
           <a
           class="d-block btn-link components"
-          href="/document/slider/slider.html"
+          href="#slider"
           >Slider</a
         >
-         
-          <a
-            class="d-block btn-link components"
-            href="/document/modal/modal.html"
-            >Modal</a
-          >
-
-          <a
-          class="d-block btn-link components"
-          href="/document/grid/grid.html"
-          >Grid Simplified</a
-        >
-
         </nav>
       </div>
-      <section id="toast" class="content margin-sm">
-        <h1 class="head-xl">Toast</h1>
+      <section id="Slider" class="content margin-sm">
+        <h1 class="head-xl">Slider</h1>
         <p class="text-sm text-gray">
-          This component can be used for toast or snackbar component. Toast is
-          mostly used to show feedback message. Snackbar is to used show message
-          that need user action
+            Sliders are used to decide range for something like sound in videos, price in shopping sites, etc.
         </p>
 
-        <h2 class="head-md">Example of Toast</h2>
-        <p class="text-sm text-gray">
-          Add toast class to wrapper. Toast has 3 themes toast-success,
-          toast-error, toast-inform class to style the theme.
-        </p>
+        <h2 class="head-md">Example of Simple slider</h2>
 
-        <!--------------------toast components ------------------------>
+        <!--------------------slider components ------------------------>
 
         <div class="component-wrapper padding-xs border-radius-xs d-flex">
-          <div class="toast toast-success margin-xs">Saved!</div>
-
-          <div class="toast toast-error margin-xs">
-            Not Saved! ,Try again later
-          </div>
-
-          <div class="toast toast-inform margin-xs">Saving to Server...</div>
+            <input type="range" min="1" max="100" value="30" />
         </div>
-        <!--------------------toast code ------------------------>
+        <!--------------------slider code ------------------------>
 
         <div class="code-snippet">
-          <script src="https://gist.github.com/dev-prabhat/8586b70f6be486639d5fd23f0e35d4cb.js"></script>
+            <script src="https://gist.github.com/dev-prabhat/3e53fdd0c352ca9c1a8d38769d761e79.js"></script>
+        </div>
+
+        
+        <h2 class="head-md">Example of Custom Slider</h2>
+        <p class="text-sm text-gray">
+          Here it is a custom slider which i have created from scratch using html and css , i can use custom slider in my project as this is based on my Theme of Project
+        </p>
+        
+        <!--------------------custom slider components ------------------------>
+
+        <div class="component-wrapper padding-xs border-radius-xs d-flex">
+            <input class="slider" type="range" min="1" max="100" value="30" />
+        </div>
+
+        <!--------------------custom slider components ------------------------>
+
+        <div class="code-snippet">
+            <script src="https://gist.github.com/dev-prabhat/e795463324ddc91c5c3b16f8a7dd1b20.js"></script>
         </div>
       </section>
     </div>
