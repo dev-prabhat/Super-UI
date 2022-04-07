@@ -20,7 +20,7 @@ To start using the Component Library Copy and Paste the given code inn your HTML
 ```
 
 ```css
-   @import url("https://tender-mccarthy-d4aa39.netlify.app/component.css");
+   @import url("https://deploy-preview-29--super-ui.netlify.app/component.css");
 ```
 
 ---
