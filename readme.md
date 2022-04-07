@@ -61,7 +61,7 @@ We have seven types of Alert Component:
 
 
 
-Click here: hhttps://deploy-preview-29--super-ui.netlify.app/document/alert/alert.html
+Click here: https://deploy-preview-29--super-ui.netlify.app/document/alert/alert.html
 
 ---
 
